@@ -1,0 +1,85 @@
+/*DEVELOPER: Amr Elkhalifa, IS117-003, fall 2023 -*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    margin-bottom: 0;
+    background-color: navy;
+}
+.navbar-expand-md{
+    background-color: navy;
+}
+
+
+
+.text-center {
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+body {
+    background-color: lightblue;
+}
+.card-img-top {
+    height: 300px;
+}
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    color: navy;
+    font-weight: bolder;
+}
+.text-box {
+    margin-bottom: 50px;
+}
+.custom-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightseagreen;
+}
+.card-header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    padding-top: 20px;
+    background-color: teal;
+}
+
+.card-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+.footer {
+    position:sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: dodgerblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight:bolder;
+}
+.terms-link,
+.privacy-link {
+    color: blue;
+    text-decoration: underline;
+}

@@ -1,0 +1,150 @@
+<!-- DEVELOPER: Amr Elkhalifa, IS117-003, fall 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A.E Games</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-gradient navbar-light
+                    col-12">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="/images/aegames-high-resolution-logo-transparent.png" alt="A.E Games Logo" style="max-height: 40px; max-width: 100%; margin: 0;">
+                </a>
+
+
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" style="background-color:white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <!--Dropdown Link -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="consoles.html" id="navbardrop" role="button" aria-expanded="false">
+                                Consoles
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="nintendo.html">Nintendo Switch</a>
+                                <a class="dropdown-item" href="playstation.html">PlayStation 5</a>
+                                <a class="dropdown-item" href="xbox.html">Xbox Series X</a>
+                            </div>
+                        </li>
+            </nav>
+    <div class="col-sm-4  text-center">
+        <h2 class = "text-center">Let's get started! </h2>
+    </div>
+
+        <div class="container-fluid">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/home%20page%20carousel%20xbox.jpg" alt="Zoom in of XBOX series X console with controller" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/homepage%20carousel%20nintendo.jpeg" alt="Zoom in of Nintendo Switch OLED console going into Dock" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/home%20page%20carousel%20playstation5.jpeg" alt="Zoom in of PlayStation 5 console with controller" class="d-block w-100">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <!-- Cards -->
+        <div class="row mb-4 mt-4">
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <img src="/images/home%20page%20xbox.jpeg" class="card-img-top img-fluid" alt="Xbox logo">
+                    <div class="card-body">
+                        <h5 class="card-title">XBOX</h5>
+                        <p class="card-text">
+                            Xbox is a gaming brand that offers a range of consoles and games designed for immersive entertainment experiences.
+                            Discover a vast library of exclusive titles and cutting-edge hardware that pushes the boundaries of gaming.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <img src="/images/home%20page%20nintendo.jpg" class="card-img-top img-fluid" alt="Nintendo Logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Nintendo</h5>
+                        <p class="card-text">
+                            Nintendo, a pioneer in the gaming industry, delivers iconic characters and innovative gameplay.
+                            Explore unique gaming experiences, from beloved franchises to innovative hardware like the Nintendo Switch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <img src="/images/home%20page%20playstation.jpeg" class="card-img-top img-fluid" alt="PlayStation Logo">
+                    <div class="card-body">
+                        <h5 class="card-title">PlayStation</h5>
+                        <p class="card-text">
+                            PlayStation offers a diverse gaming ecosystem with exclusive titles and powerful hardware.
+                            Dive into immersive worlds and engage in captivating storytelling with the PlayStation gaming experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text">&copy; Amr Elkhalifa, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>
